@@ -1,0 +1,134 @@
+.tests_div {
+    min-height: 10px;
+    max-height: 175px;
+    overflow-y: scroll;
+}
+
+.test_div {
+    font-size: larger;
+    font-style: italic;
+    font-weight: 600;
+}
+
+/* ///////////////////// */
+
+button.formBtn {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 170px;
+    height: 40px;
+    line-height: 1;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid;
+    background: #fff0;
+    color: #ffffff;
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+}
+
+button#submitBtn_del {
+    border-color: orangered;
+    color: gray;
+}
+
+button.formBtn:hover {
+    background: #BEEDFF;
+    color: #fff;
+}
+
+button.formBtn span {
+    opacity: 1;
+    visibility: visible;
+    transition: all .35s;
+}
+
+.success {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s;
+    display: flex;
+    justify-content: center;
+}
+
+.success svg {
+    width: 20px;
+    height: 20px;
+    fill: yellowgreen;
+    transform-origin: 50% 50%;
+    transform: translateY(-50%) rotate(0deg) scale(0);
+    transition: all .35s;
+}
+
+button.formBtn.is_active {
+    width: 40px;
+    height: 40px;
+}
+
+button.formBtn.is_active .success {
+    opacity: 1;
+    visibility: visible;
+}
+
+button.formBtn.is_active .success svg {
+    margin-top: 50%;
+    transform: translateY(-50%) rotate(720deg) scale(1);
+}
+
+button.formBtn.is_active span {
+    opacity: 0;
+    visibility: hidden;
+}
+
+form#addNewPatientForm input {
+    background: #0000000e;
+}
+
+div#footer button.formBtn {
+    right: 10%;
+}
+
+div#footer {
+    background-image: url("/images/footer2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+div#footer div#overlay {
+    padding-top: 40px;
+    padding-bottom: 6px;
+    background-color: #3e3e3e36;
+}
+
+.owl-div-inner {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(174, 183, 238);
+    background: radial-gradient(circle, rgba(174, 183, 238, 1) 0%, rgba(148, 187, 233, 0.5130427170868348) 100%);
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item img {
+        max-height: 870px;
+    }
+}

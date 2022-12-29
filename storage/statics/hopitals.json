@@ -1,0 +1,27 @@
+[
+    {
+      "img": "hospital-img-1.webp",
+      "name": "Hospital One",
+      "location": "Sargodha"
+    },
+    {
+      "img": "hospital-img-2.webp",
+      "name": "Hospital Two",
+      "location": "Choki"
+    },
+    {
+      "img": "hospital-img-3.webp",
+      "name": "Hospital Three",
+      "location": "Kalowal"
+    },
+    {
+      "img": "hospital-img-4.webp",
+      "name": "Hospital Four",
+      "location": "Attock"
+    },
+    {
+      "img": "hospital-img-5.webp",
+      "name": "Hospital Five",
+      "location": "Pindi"
+    }
+]

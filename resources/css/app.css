@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('./datatable.min.css');
+@import url('./main.css');
+
+/* default styling */
+
+body{
+     background: linear-gradient(to top, #0099ff 0%, #ffffff 100%);
+}

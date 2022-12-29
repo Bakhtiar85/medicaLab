@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.8",
+        "axios": "^0.25",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.8"
+    },
+    "dependencies": {
+        "datatables.net-buttons-dt": "^2.2.3",
+        "datatables.net-dt": "^1.12.1",
+        "datatables.net-responsive-dt": "^2.3.0",
+        "jquery": "^3.6.0",
+        "tw-elements": "^1.0.0-alpha12"
+    }
+}

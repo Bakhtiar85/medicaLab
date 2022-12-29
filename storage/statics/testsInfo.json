@@ -1,0 +1,66 @@
+[
+    {
+        "name": "HCV",
+        "price": "200"
+    },
+    {
+        "name": "Hbsag",
+        "price": "200"
+    },
+    {
+        "name": "Hb",
+        "price": "100"
+    },
+    {
+        "name": "ESR",
+        "price": "200"
+    },
+    {
+        "name": "BSR",
+        "price": "100"
+    },
+    {
+        "name": "Typhidot",
+        "price": "400"
+    },
+    {
+        "name": "Mycodot",
+        "price": "400"
+    },
+    {
+        "name": "H-pylori",
+        "price": "400"
+    },
+    {
+        "name": "Blood-Pregnancy",
+        "price": "100"
+    },
+    {
+        "name": "Colesterol",
+        "price": "350"
+    },
+    {
+        "name": "Uric-Acid",
+        "price": "400"
+    },
+    {
+        "name": "Syphilis",
+        "price": "300"
+    },
+    {
+        "name": "HIV",
+        "price": "350"
+    },
+    {
+        "name": "Blood-Group",
+        "price": "100"
+    },
+    {
+        "name": "Urine-Test",
+        "price": "350"
+    },
+    {
+        "name": "Malaria",
+        "price": "350"
+    }
+]
